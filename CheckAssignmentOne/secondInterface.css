@@ -1,0 +1,50 @@
+.aa{
+    display: flex;
+    gap:90px;
+    color:white;
+    background-color:black;
+    padding:2px;
+    
+}
+.ca{
+    display: flex;
+    font-size:15px;
+    margin-bottom: -50px;
+    gap:1px;
+   
+}
+.ii{
+    background-color:aqua;
+ 
+}
+#a{
+    padding:10px;
+    margin-top: 5px;
+}
+#cz{
+    background-color: white;
+    font-size: 12px;
+}
+#cy{
+    background-color: white;
+}
+h2{
+    color:white;
+    background-color:blue ;
+    border-radius: 10px;
+    padding:10px;
+}
+
+h1{ 
+    margin-top: -40px;
+   
+}
+form{
+    font-size:9px;
+   
+}
+.results{
+    display: flex;
+    gap:50px;
+    margin-left: 30px;
+}

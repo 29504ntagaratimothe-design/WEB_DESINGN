@@ -1,0 +1,32 @@
+#a{
+    background-image: url("PHOTOS/login\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:8px solid olive;
+    border-radius: 15px;
+    
+    
+    
+}
+#b{
+    background-image: url("PHOTOS/WhatsApp\ Image\ 2026-11-09\ at\ 18.31.52.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    border:8px solid olive;
+    border-radius: 15px;
+
+}
+td{
+    border-color:skyblue;
+
+}
+#done{
+    border:10px solid white;
+}
+#dtwo{
+    border:10px solid white;
+    
+}
+
+

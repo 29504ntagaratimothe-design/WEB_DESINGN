@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <title>secondInterface</title>
+        <link rel="stylesheet" href="secondInterface.css">
+        <script type="text/javascript" src="secondInterface.js"></script>
+    </head>
+    <body>
+        <div class="ii">
+        <div class="aa">
+            <div ><img src="PHOTOS/auca_badge.jpeg" width="60" height="50"></div>
+            <div id="a">HOME</div>
+            <div id="a">APPLICATION</div>
+            <div id="a">STUDENTS</div>
+            <div id="a">MARKS</div>
+            <div id="a">ACADEMICS</div>
+
+        </div>
+
+        <table border="2" width="100%">
+        <tr>
+        <td>
+        <div class="ba">
+            <img src="PHOTOS/WhatsApp Image 2026-11-09 at 18.31.53.jpeg" width="1225" height="60">
+        </div>
+        </td>
+        </tr>
+        </table>
+
+        <table border="2" width="100%">
+        <tr>
+        
+            <td>
+        
+            
+            <div><img src="PHOTOS/WhatsApp Image 2026-11-11 at 11.12.03.jpeg" width="150" height="350"></div>
+            </td>
+
+            <td id="cz">
+            <div >
+                <h2>Teacher Management System-TMIS</h2>
+                <p>TMIS provides an integrated solution for managing teacher data,promoting transparency, and 
+                    enabling evidence-based decision making.
+                </p>
+
+                <h2>Transforming Teacher Management in Rwanda</h2>
+                <p>Rwanda's trusted platform for efficient teacher management centralizing recruitment,
+                    deployement, and career support to strengthen education nationwide.
+                </p>
+
+                <h2>Comprehensive Teacher Management:</h2>
+                <ul>
+                    <li>Post Distribution</li>
+                    <li>Post Management</li>
+                    <li>Teacher Transfers</li>
+                    <li>Maternity Leave</li>
+                    <li>Scholarship Management</li>
+                    <li>Continuing Professional Develpment</li>
+                </ul>
+
+
+            </div>
+            </td>
+
+            <td>
+            <div id="cy">
+                <pre>
+                    <form action="secondInterface.php" method="post">
+                        <h1>CALCULATE STUDENTS MARKS:</h1>
+
+    <label>STUDENT-NAMES:</label><input type="text" id="aaa"name="sname" >
+    
+      <label>ROLL-NUMBER:</label><input type="number" id="aab" name="rnumber" >
+
+       <label>DEPARTMENT:</label><input type="text" id="aac" name="department" >
+
+    <label>CAT1-MARKS/30:</label><input type="number" id="x"  name="catOne" min="0" max="30" >
+
+    <label>CAT2-MARKS/30:</label><input type="number"id="y" name="catTwo" min="0" max="30"  >
+
+     <label>FAT-MARKS/40:</label><input type="number"id="z" name="fmarks" min="0" max="40" >
+
+     <hr>
+
+     <input type="button" onclick="total()" value="TOTAL"> <input type="button" onclick="average()" value="AVERAGE"> <input type="button" onclick="erase()" value="DELETE">
+    <div class="results"> <div sytle="color:black" id="xyz">...</div> <div sytle="color:black" id="yzx">...</div> </div>
+    <hr>
+
+    <input type="submit" name="save" value="SAVE in DB" > <input type="submit" name="retrieve" value="RETRIVE from DB"> <input type="button" onclick="printPage()" value="PRINT">
+                    </form>
+                </pre>
+                 
+            </div>
+        </td>
+        <td>
+        <div id="c">
+            <img src="PHOTOS/WhatsApp Image 2026-11-09 at 18.31.54.jpeg" width="200" height="350" >
+        </div>
+         </td>   
+        
+        
+        </tr>
+        </table>
+      </div>
+    </body>
+</html>
